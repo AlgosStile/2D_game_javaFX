@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="388.0" prefWidth="689.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.project_game_java.Controller">
+   <children>
+      <ImageView fx:id="bg1" fitHeight="390.0" fitWidth="713.0" layoutX="-2.0" layoutY="-1.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../images/maxresdefault.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="bg2" fitHeight="389.0" fitWidth="713.0" layoutX="687.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../images/maxresdefault.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="player" fitHeight="150.0" fitWidth="201.0" layoutX="14.0" layoutY="153.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../images/6087f79f69f35e2.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="enemy" fitHeight="76.0" fitWidth="76.0" layoutX="734.0" layoutY="265.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../images/monster.png" />
+         </image>
+      </ImageView>
+      <Label fx:id="labelPause" focusTraversable="false" layoutX="261.0" layoutY="166.0" text="PAUSE" textFill="#f7f3f3" visible="false">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="48.0" />
+         </font>
+      </Label>
+      <Label fx:id="labelLose" focusTraversable="false" layoutX="271.0" layoutY="176.0" text="LOSE" textFill="#f7f3f3" visible="false">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="48.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
