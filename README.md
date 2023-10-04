@@ -2,6 +2,12 @@
  Простая 2D игра в которой персонаж уворачивается и перепрыгивает монстров.
  Если произошло соприкосновение между монстром и персонажем, игра заканчивается.
 
+ ![Pause](https://github.com/AlgosStile/2D_game_javaFX/blob/main/src/main/resources/images/1.png)
+ 
+
+ ![Lose](https://github.com/AlgosStile/2D_game_javaFX/blob/main/src/main/resources/images/2.png)
+ 
+
  ## Description:
  **Управление:**
 * Клавиша A - уворот влево
